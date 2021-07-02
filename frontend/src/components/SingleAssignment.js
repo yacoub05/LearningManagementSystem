@@ -144,7 +144,7 @@ const SingleAssignment = ({history}) => {
             
 
             }
-            {pts}
+        
             
             {/* {
                 number === 5 && <GameOver pts={pts} />

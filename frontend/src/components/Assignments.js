@@ -175,9 +175,9 @@ const Assignments = ({history}) => {
             
 
           <Link to="/createassignment">
-            <Button    variant='contained' size='small' style={{ marginLeft: 10, marginBottom: 6 }} >
+            {/* <Button    variant='contained' size='small' style={{ marginLeft: 10, marginBottom: 6 }} >
               Create new Assignment
-            </Button>
+            </Button> */}
           </Link>
               <Typography align='center' style={{ marginTop:50 }} variant='h4'>Assignments</Typography>
             <TableContainer component={Paper} className={classes.tableContainer}>

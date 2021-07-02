@@ -8,6 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {} from "react-router-dom";
 import { logout } from "../redux/user/userAction";
 import Assignments from './Assignments';
+import { Button } from '@material-ui/core';
 
 
 
@@ -47,7 +48,7 @@ const Dashboard = () => {
             </Link>
 
 
-            <div className='logout'><Link to='/login'><h2 onClick={logoutHandler}>Logout</h2></Link></div>
+            <div className='logout'><Link  className='link' to='/login'><Button onClick={logoutHandler}>Logout</Button></Link></div>
           
         </div>
         <nav className={sidebar ? 'nav-menu active':'nav-menu'}>
